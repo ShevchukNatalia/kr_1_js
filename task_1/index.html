@@ -1,10 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-$END$
+<h2>Test</h2>
+  <div class="test">
+   <div class="gap_bottom">
+      <label>Name/Value Pair</label><br>
+      <input id="new_value" type="text" placeholder="Name=Value" />
+       <div id="error_msg"></div>
+       <div class="listers">
+           <ul id="list">
+
+           </ul>
+       </div>
+   </div>
+      <div class="test_button">
+      <button  id="button_add"   class="btn">Add</button>
+      <button id="sort_name" class="btn">Sort by Name</button>
+      <button id="sort_value" class="btn">Sort by Value</button>
+      <button id="button_delete" class="btn">Delete</button>
+      </div>
+  </div>
+
+<script src="script.js"></script>
 </body>
 </html>
