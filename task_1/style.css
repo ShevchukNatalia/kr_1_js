@@ -42,19 +42,6 @@ h2{
     color: black;
 
 }
-#button_add{
-
-}
-#sort_name{
-
-}
-#sort_value{
-
-}
-#button_delete{
-
-}
-
 #new_value {
     width: 90%;
     padding: 10px;
@@ -64,7 +51,6 @@ h2{
     box-sizing: border-box;
     font-size: 14px;
 }
-
 #new_value:focus {
     border-color: #007bff;
     outline: none;
